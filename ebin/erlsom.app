@@ -1,0 +1,11 @@
+{application,erlsom,
+ [{description,"erlsom XSD parser"},
+  {vsn,"1.2.1"},
+  {modules,[erlsom_compile, erlsom, erlsom_parseXsd, erlsom_write, erlsom_lib,
+            erlsom_pass2, erlsom_writeHrl, erlsom_add, erlsom_parse, erlsom_sax,
+            erlsom_ucs, erlsom_sax_latin1, erlsom_sax_utf8, erlsom_sax_utf16be,
+            erlsom_sax_utf16le, erlsom_simple_form, erlsom_sax_lib,
+            erlsom_sax_list, ucs]},
+  {registered,[]},
+  {env,[]},
+  {applications,[kernel,stdlib]}]}.
