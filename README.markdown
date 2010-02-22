@@ -17,7 +17,5 @@ Changes from 1.2.1
 * created erlsom.app file in ebin (verified modules with rebar)
 * removed include directory
 * replaced obsolete guard functions
-* examples
- + removed beam files
- + removed erlsom.hrl files and fixed soap_example.erl to reflect this
-
+* examples: removed beam files
+* examples: removed erlsom.hrl files and fixed soap_example.erl to reflect this
