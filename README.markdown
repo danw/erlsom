@@ -10,8 +10,8 @@ operation: as an efficient SAX parser, as a simple DOM-like parser, or as a
 'data mapper'. The data mapper transforms the XML document to erlang records,
 based on an XML schema.
 
-Changes from 1.2.1
-------------------
+Changes from 1.2.1 to github.com/dweldon/erlsom
+-----------------------------------------------
 * replaced old complex make system with a very simple one
 * ran dos2unix on all files
 * created erlsom.app file in ebin (verified modules with rebar)
@@ -19,3 +19,7 @@ Changes from 1.2.1
 * replaced obsolete guard functions
 * examples: removed beam files
 * examples: removed erlsom.hrl files and fixed soap_example.erl to reflect this
+
+Changes from github.com/dweldon/erlsom
+--------------------------------------
+* replaced old simple make system with rebar
